@@ -1,0 +1,10 @@
+version: '3.8'
+services:
+  farrukh-service:
+    image: temur0vf/my-spring-boot:t1
+    ports:
+      - "9090:8080"
+  akash-service:
+    image: akashkale/my-spring-boot:v1
+    ports:
+      - "9191:8080"
